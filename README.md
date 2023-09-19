@@ -6,13 +6,13 @@
 ## 余弦相似度算法
 
 余弦相似度基于词袋模型，其公式如下:
-\[
+
 \mathrm{cosine\ similarity}=\frac{A\cdot B}{\parallel A\parallel\parallel B\parallel}
-\]
+
 其中:
 - \(A\) 和 \(B\) 是两个文档的向量表示。
 - \(⋅\) 表示向量的点积。
-- \(\parallel A\parallel\) 和 \(\parallel B\parallel\) 是向量的模。
+- \parallel A\parallel 和 \parallel B\parallel 是向量的模。
 
 ## 代码实现
 

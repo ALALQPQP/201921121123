@@ -6,8 +6,9 @@
 ## 余弦相似度算法
 
 余弦相似度基于词袋模型，其公式如下:
-
+\begin{aligned}
 \mathrm{cosine\ similarity}=\frac{A\cdot B}{\parallel A\parallel\parallel B\parallel}
+\end{aligned}
 其中:
 - \(A\) 和 \(B\) 是两个文档的向量表示。
 - \(⋅\) 表示向量的点积。
@@ -32,7 +33,9 @@ def preprocess_text(text: str) -> List[str]:
     words = list(text)
     
     return words
+
 ### 计算余弦相似度函数
+
 ```python
 from collections import Counter
 import numpy as np
@@ -56,7 +59,9 @@ def calculate_cosine_similarity(doc1_words: List[str], doc2_words: List[str]) ->
     cosine_similarity = np.dot(doc1_vector, doc2_vector) / (np.linalg.norm(doc1_vector) * np.linalg.norm(doc2_vector))
     
     return cosine_similarity
+
 ### 主函数
+
 ```python
 import argparse
 
@@ -86,7 +91,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 ### 使用
+
 要使用此程序，可以在命令行中运行以下命令:
 python main.py "path/to/original_text.txt" "path/to/copied_text.txt" "path/to/output_similarity.txt"
 

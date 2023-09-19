@@ -11,7 +11,8 @@
 \mathrm{cosine\ similarity}=\frac{A\cdot B}{\parallel A\parallel\parallel B\parallel}
 \end{aligned}
 
-其中:- \(A\) 和 \(B\) 是两个文档的向量表示。
+其中:
+- \(A\) 和 \(B\) 是两个文档的向量表示。
 - \(⋅\) 表示向量的点积。
 - ∥A∥ 和∥B∥ 是向量的模。
 

@@ -49,7 +49,7 @@ calculate_cosine_similarity
 ### 测试数据构造
 我们根据实际场景构建了不同的测试数据集，包括完全相同的文本、部分相似的文本和完全不同的文本。
 ### 性能分析图
-![image](https://github.com/ALALQPQP/201921121123/assets/144198449/21ef7d97-4c86-477a-812f-b7d5ff58c117)
+![image](https://github.com/ALALQPQP/201921121123/cosine similarity/img.png)
 
 
 

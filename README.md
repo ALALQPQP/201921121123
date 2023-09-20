@@ -2,7 +2,8 @@
 
 ## 链接
 [Github 仓库链接](https://github.com/ALALQPQP/201921121123/)
-
+## 开发环境
+jupyter notebook python 3.10
 ## PSP 2.1 表格
 | Personal Software Process Stages | 预估耗时（分钟） |
 |----------------------------------|-----------------|
